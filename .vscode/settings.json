@@ -1,0 +1,28 @@
+{
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.iverilog.arguments": "-g2012 -Wall",
+    "verilog.linting.iverilog.runAtFileLocation": true,
+    "files.associations": {
+        "*.v":  "verilog",
+        "*.sv": "systemverilog",
+        "*.svh": "systemverilog",
+        "*.vh": "verilog"
+    },
+    "editor.fontSize": 16,
+    "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas, monospace",
+    "editor.fontLigatures": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [80],
+    "editor.wordWrap": "off",
+    "editor.bracketPairColorization.enabled": true,
+    "terminal.integrated.fontSize": 14,
+    "[verilog]": {
+        "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode",
+        "editor.fontLigatures": false
+    },
+    "[systemverilog]": {
+        "editor.defaultFormatter": "bmpenuelas.systemverilog-formatter-vscode",
+        "editor.fontLigatures": false
+    }
+}
