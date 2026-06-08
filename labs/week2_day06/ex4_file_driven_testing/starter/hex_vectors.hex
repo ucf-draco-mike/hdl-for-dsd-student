@@ -1,0 +1,20 @@
+// hex_vectors.hex — Test vectors for hex_to_7seg
+// Format per line: 11-bit {input_hex[3:0], expected_seg[6:0]}
+// Segments o_seg = {a,b,c,d,e,f,g}, active-low (0 = on, 1 = off)
+// Generated to match the provided hex_to_7seg decoder exactly.
+07E  // 0 -> 1111110
+0B0  // 1 -> 0110000
+16D  // 2 -> 1101101
+1F9  // 3 -> 1111001
+233  // 4 -> 0110011
+2DB  // 5 -> 1011011
+35F  // 6 -> 1011111
+3F0  // 7 -> 1110000
+47F  // 8 -> 1111111
+4FB  // 9 -> 1111011
+577  // A -> 1110111
+59F  // B -> 0011111
+64E  // C -> 1001110
+6BD  // D -> 0111101
+74F  // E -> 1001111
+7C7  // F -> 1000111
